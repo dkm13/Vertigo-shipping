@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertigo Logistics</title>
+    <script
+      src="https://kit.fontawesome.com/049c2c6974.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="home">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="./images/logo-white.png" alt="a" /></a>
+          <i onclick="myFunction()" class="fas fa-bars"></i>
+        </div>
+        <div id="lists" class="lists">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Corporate</a></li>
+            <li><a href="#">We offer</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mid-txt">
+        <h4>Ships anything</h4>
+        <h2>Around the world</h2>
+        <button>Get started!</button>
+      </div>
+
+      <div class="boxes">
+        <div class="box a">
+          <img src="./images/airplane.png" alt="air" />
+          <h3>AIR FREIGHT</h3>
+          <p>Lorem, ipsum dolor</p>
+        </div>
+        <div class="box b">
+          <img src="./images/pick-up-car.png" alt="land" />
+          <h3>LAND FREIGHT</h3>
+          <p>Lorem, ipsum dolor</p>
+        </div>
+        <div class="box c">
+          <img src="./images/freight.png" alt="sea" />
+          <h3>SEA FREIGHT</h3>
+          <p>Lorem, ipsum dolor</p>
+        </div>
+        <div class="box d">
+          <img src="./images/fast-delivery.png" alt="cargo" />
+          <h3>PROJECT CARGO</h3>
+          <p>Lorem, ipsum dolor</p>
+        </div>
+        <div class="box e">
+          <img src="./images/fast.png" alt="ship" />
+          <h3>SHIPPING AGENCY</h3>
+          <p>Lorem, ipsum dolor</p>
+        </div>
+      </div>
+    </section>
+    <section class="test"></section>
+
+    <section class="about">
+      <h2>Why Choose Us?</h2>
+      <div class="abt-cont">
+        <div class="img-gp">
+          <img
+            src="./images/shipping-company-750x375.jpg"
+            alt="shipping-company-750x375"
+          />
+        </div>
+        <div class="abt-txt">
+          <p>
+            Vertigo Logistics, is a packaging, crating and shipping company,
+            located in Chicago, Illnois to serve you and the entire World, Our
+            goal is simple, to save you time and money on all your shipping
+            needs, with over 16 years of experience in packing, crating and
+            shipping, we are your best solution for all your shipping needs.<br /><br />
+            We pride ourselves on providing exceptional service to every
+            customer, we understand that not all shipments are the same, based
+            on your needs; we provide solutions that are tailored to each
+            shipment and offer you a true value when you ship with Vertigo
+            Logistics.
+            <br />
+            We offer top service at excellent rates, because our logistical
+            efficiency and the alliances we have formed with the carriers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2>Unmatched Services!<br />Unmatched Excellence</h2>
+      <div class="services-cont">
+        <div class="service active-class">
+          <h4>Land freight</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur, dolores placeat quis vitae laborum voluptatibus
+            perspiciatis.
+          </p>
+        </div>
+        <div class="service">
+          <h4>Sea freight</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur, dolores placeat quis vitae laborum voluptatibus
+            perspiciatis.
+          </p>
+        </div>
+        <div class="service">
+          <h4>Air freight</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur, dolores placeat quis vitae laborum voluptatibus
+            perspiciatis.
+          </p>
+        </div>
+        <div class="service">
+          <h4>Project Cargo</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur, dolores placeat quis vitae laborum voluptatibus
+            perspiciatis.
+          </p>
+        </div>
+        <div class="service">
+          <h4>Shipping agency</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur, dolores placeat quis vitae laborum voluptatibus
+            perspiciatis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-cont">
+        <div class="logo-footer">
+          <a href="index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="footer-content">
+          <div class="one-content">
+            <p>Services:</p>
+            <ul>
+              <li><a href="#">Land Freight</a></li>
+              <li><a href="#">Sea Freight</a></li>
+              <li><a href="#">Air Freight</a></li>
+              <li><a href="#">Project Cargo</a></li>
+              <li><a href="#">Shipping Agency</a></li>
+            </ul>
+          </div>
+          <div class="two-content">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Corporate</a></li>
+              <li><a href="#">We Offer</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("lists");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
